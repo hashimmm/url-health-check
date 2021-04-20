@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  consumer:
+    build: .
+    command: "python /code/consumer.py"
+  producer:
+    build: .
+    command: "python /code/producer.py"

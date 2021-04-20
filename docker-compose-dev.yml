@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  sitemonitor:
+    build: .
+    volumes:
+      - ./src:/code
+    command: "bash"
+    stdin_open: true
+    tty: true

@@ -1,0 +1,8 @@
+.env
+.devcontainer
+.vscode
+__pycache__
+*.pyc
+cafile
+cafile-consumer
+mysettings.py
